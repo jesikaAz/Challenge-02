@@ -81,6 +81,8 @@ li {
     margin-left: none;
     margin-right: 64px;
     padding-top: 22px;
+    background-color:#fff;
+    list-style-type: none;
 }
 
 nav {
@@ -95,19 +97,14 @@ nav {
     background-color: #fff;
 }
 
-a
 
 /* 04 - Icones sociales */
 
 .social {
     align-content: flex-end;
     margin-left: 300px;
-}
-
-.twitter , .facebook , .instagram , .github {
     color: white;
 }
-
 
 /*05 - Blocs d'images */
 
@@ -155,11 +152,9 @@ section {
 }
 
 .image {
-    margin-bottom: 65px;
     width: 898px;
     height: 438px;
-    margin-left: 200px;
-    margin-right: 128px;
+    margin : auto;
 }
 
 
@@ -237,8 +232,8 @@ a:link {
 } 
 
 a:hover {
-    color: darkblue;
-    border-color: darkblue;
+    color: lightgrey;
+    border-color: lightgrey;
 }
 
 
@@ -331,7 +326,7 @@ article ul {
     font-weight: lighter;
 }
 
-#social {
+social {
     text-align:left;
     height: 150px;
     letter-spacing: 8px;
