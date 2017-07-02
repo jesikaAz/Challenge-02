@@ -64,8 +64,7 @@ h1 {
 /* 03 - Navbar */
 
 ul {
-    display: flex;
-    flex-direction: row;
+    display:inline-block;
     color: white;
     text-transform: uppercase;
     font-family: 'Source Sans Pro' , 'Sans Serif';
@@ -85,7 +84,6 @@ li {
 }
 
 nav {
-    display: flex;
     background-color:#fff;
     margin-left: 75px;
     margin-right: 75px;
@@ -99,9 +97,9 @@ nav {
 /* 04 - Icones sociales */
 
 .social {
-    align-content: flex-end;
     margin-left: 300px;
     color: white;
+    display:inline-block;
 }
 
 /*05 - Blocs d'images */
@@ -199,9 +197,8 @@ section {
 /* 06 - Pagination */
 
 .pages {
-    display: flex;
-    flex-direction : row;
-    justify-content: center;
+    display:inline-block;
+    text-align: center;
     padding-top: 75px;
     padding-bottom: 75px;
     border-top: solid 2px #EEEEEE;
@@ -302,7 +299,7 @@ article {
 article ul {
     text-decoration: none;
     text-align: center;
-    display: flex;
+    display: inline-block;
 }
 
 #address {
