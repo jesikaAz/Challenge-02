@@ -81,7 +81,6 @@ li {
     margin-left: none;
     margin-right: 64px;
     padding-top: 22px;
-    background-color:#fff;
     list-style-type: none;
 }
 
@@ -91,7 +90,6 @@ nav {
     margin-left: 75px;
     margin-right: 75px;
 }
-
 
 .active:hover {
     background-color: #fff;
@@ -201,13 +199,11 @@ section {
 /* 06 - Pagination */
 
 .pages {
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    flex-direction: row;
     padding-top: 75px;
     padding-bottom: 75px;
     border-top: solid 2px #EEEEEE;
-    margin-top: -2px;
 }
 
 .li {
@@ -326,7 +322,7 @@ article ul {
     font-weight: lighter;
 }
 
-social {
+#social {
     text-align:left;
     height: 150px;
     letter-spacing: 8px;
@@ -334,7 +330,6 @@ social {
 
 
 .separation {
-
     height: 2px;
     width: 900px;
     margin-top: 0px;
