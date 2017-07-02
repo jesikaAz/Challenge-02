@@ -199,7 +199,8 @@ section {
 /* 06 - Pagination */
 
 .pages {
-    display: inline-block;
+    display: flex;
+    flex-direction : row;
     justify-content: center;
     padding-top: 75px;
     padding-bottom: 75px;
