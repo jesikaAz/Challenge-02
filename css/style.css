@@ -18,13 +18,16 @@ Date: Semaine 26 --*/
 @import url(font-awesome.min.css);
 
 body{
-	background: url(../img/bg.jpg) no-repeat fixed;
-	background-size: cover;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
 }
 
 /* 02 - Header */
 header {
-    margin:auto;
+    margin-left: 75px;
+    margin-right: 75px;
     text-align: center;
     color: #fff;
 } 
@@ -127,13 +130,20 @@ section {
     padding-left: 0px;
 }
 
-/* 1er bloc */
-
-.first-row {
-    width: 85%;
-    margin: auto;
-    background-color: white;
+.button {
+	display: flex;
+	justify-content: space-around;
+	margin: auto 37%;
+	padding: 1em;
+	text-transform: uppercase;
+	border: solid black 2px;
+	color: black;
+	font-family: SourceSansPro-Regular, Helvetica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
+
+/* 1er bloc */
 
 .paragraphe  {
     text-align: center;
