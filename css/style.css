@@ -66,7 +66,7 @@ h1 {
 
 #navbar {
 	background-color: rgba(255,255,255,0.2);
-	display: flex;
+	display: inline-block;
 	height: 10%;
 	width: 85%;
 	margin: auto;
@@ -145,6 +145,10 @@ section {
 
 /* 1er bloc */
 
+.first-row {
+	   border-bottom: solid 2px #EEEEEE;
+}
+
 .paragraphe  {
     text-align: center;
     font-style: italic;
@@ -219,6 +223,11 @@ section {
     margin-left: 55px;
     margin-top: 48px;
     margin-bottom: 48px;
+}
+
+.fullstory {
+    margin-bottom: 130px;
+    padding-top: 7px;
 }
 
 
