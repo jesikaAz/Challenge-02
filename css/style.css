@@ -125,9 +125,11 @@ li {
 
 section {
     background-color: white;
-    margin-left: 75px;
-    margin-right: 75px;
-    padding-left: 0px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    padding: 0;
 }
 
 .button {
@@ -148,6 +150,12 @@ section {
 .first-row {
 	   border-bottom: solid 2px #EEEEEE;
 }
+
+.row {
+	margin: auto;
+}
+
+
 
 .paragraphe  {
     text-align: center;
