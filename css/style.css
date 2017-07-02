@@ -1,0 +1,365 @@
+/*--Description: Intégration d'une maquette avec bootstrap
+Auteur: Jessica Anschutz 
+Date: Semaine 26 --*/
+
+/* Table des matières 
+
+01 - Fonds 
+02 - Header
+03 - Navbar
+04 - Icones sociales
+05 - Blocs d'images
+06 - Pagination 
+07 - Footer
+
+
+/* 01 - Fonds */
+
+@import url(font-awesome.min.css);
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+}
+
+/* 02 - Header */
+header {
+    margin:auto;
+    text-align: center;
+    color: #fff;
+} 
+
+.col-lg-12 {
+    text-align:center;
+    margin: 90px 0px 200px 0px;
+}
+
+.intro {
+    font-family: 'Merriweather','Sans Serif';
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+article p a {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    line-height: 45px;
+    letter-spacing: 4px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro','Sans Serif';
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+/* 03 - Navbar */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    margin-left: none;
+    margin-right: 64px;
+    padding-top: 22px;
+}
+
+nav {
+    display: flex;
+    background-color:#fff;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+.active:hover {
+    background-color: #fff;
+}
+
+a
+
+/* 04 - Icones sociales */
+
+.social {
+    align-content: flex-end;
+    margin-left: 300px;
+}
+
+.twitter , .facebook , .instagram , .github {
+    color: white;
+}
+
+
+/*05 - Blocs d'images */
+
+section {
+    background-color: white;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 0px;
+}
+
+/* 1er bloc */
+
+.first-row {
+    border-bottom: solid 2px #fff;
+}
+
+.paragraphe  {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 65px;
+    font-family: 'Merriweather', 'Sans Serif';
+    line-height: 35px;
+}
+
+.titre {
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.date {
+    font-family: 'Merriweather', 'Sans Serif';
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
+
+.image {
+    margin-bottom: 65px;
+    width: 898px;
+    height: 438px;
+    margin-left: 200px;
+    margin-right: 128px;
+}
+
+
+.colonnes {
+    border-bottom: solid 2px;
+    border-bottom-color: #EEEEEE;
+    width: 100%;
+    height: 796px;
+}
+
+
+.titres {
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    color: black;
+}
+
+.paragraphes {
+    text-align: justify;
+    font-family: 'Merriweather', 'Sans Serif';
+    font-weight: 300;
+    text-align: justify;
+    line-height: 35px;
+    width: 80%;
+    height: auto;
+    margin-left: 55px;
+    
+}
+
+.col-lg-6 img {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left: 55px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+
+/* 06 - Pagination */
+
+.pages {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-top: solid 2px #EEEEEE;
+    margin-top: -2px;
+}
+
+.li {
+    border: solid 2px #EEEEEE;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: -2px;
+    color: black;
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+a {
+    color: black;
+}
+
+a:link { 
+ text-decoration: none; 
+} 
+
+a:hover {
+    color: darkblue;
+    border-color: darkblue;
+}
+
+
+/* 07 - Footer */
+
+footer {
+    background-color: #f5f5f5;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: left;
+    text-decoration: none;
+    color: #717981;
+} 
+
+.container {
+    margin: 0px 0px 0px 0px;
+    padding-left: 15px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+.row {
+    margin:0px; 
+}
+
+#name {
+    border: solid 1px #e2e2e2;
+    background-color: #f5f5f5;
+    width: 450px;
+    height: 45px;
+}
+
+#email {
+    border: solid 1px #e2e2e2;
+    background-color: #f5f5f5;
+    width: 450px;
+    height: 45px;
+}
+
+#message {
+    border: solid 1px #e2e2e2;
+    background-color: #f5f5f5;
+    width: 450px;
+    height: 150px;
+}
+
+.special {
+    font-weight: bold;
+    color: #797981;
+    height: 55px;
+    border: solid 2px #797981;
+    background-color: #f5f5f5;
+    padding: 1px 30px 1px 30px;
+    text-align: center;
+}
+
+.col-lg-6 {
+    padding border-color: #797981;
+}
+
+article {
+    font-weight: bold;
+    color: #717981;
+    margin: 50px;
+    margin-left: 50px;
+}
+
+article ul {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+}
+
+#address {
+    text-align:left;
+    height: 150px;
+    font-weight: lighter;
+}
+
+#phone {
+    text-align:left;
+    height: 150px;
+    font-weight: lighter;
+}
+
+#mail {
+    text-align:left;
+    height: 150px;
+    font-weight: lighter;
+}
+
+#social {
+    text-align:left;
+    height: 150px;
+    letter-spacing: 8px;
+}
+
+
+.separation {
+
+    height: 2px;
+    width: 900px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #e7e7e7;
+}
+
+nav {
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#copyright  {
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: #4e5754;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
