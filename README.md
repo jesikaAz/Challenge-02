@@ -1,3 +1,5 @@
-# Challenge-02-v2
+# Challenge-02
 
-Modification du Challenge 2 
+Version 2 - Jessica Anschutz
+
+--> Modification du Challenge 2 
