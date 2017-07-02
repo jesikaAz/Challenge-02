@@ -24,8 +24,17 @@ body{
     background-repeat: no-repeat; 
 }
 
-
 /* 02 - Header*/
+
+header {
+	width: 75%;
+	height: 75%;
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
+
 /*03 - Navbar*/
 /*04 - Icones sociales*/
 /*05 - Blocs d'images*/
