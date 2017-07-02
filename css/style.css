@@ -26,15 +26,15 @@ body{
 
 /* 02 - Header */
 header {
-    margin-left: 75px;
-    margin-right: 75px;
+    margin : auto;
     text-align: center;
     color: #fff;
 } 
 
 .col-lg-12 {
     text-align:center;
-    margin: 90px 0px 200px 0px;
+    margin: auto;
+    padding: auto;
 }
 
 .intro {
@@ -80,8 +80,6 @@ h1 {
 
 li {
     margin-left: none;
-    margin-right: 64px;
-    padding-top: 22px;
     list-style-type: none;
     display:inline-block;
 }
@@ -95,14 +93,13 @@ li {
 /* 04 - Icones sociales */
 
 .social {
-	display: flex;
-	flex-direction: row;
-	padding-left: 0;
-	margin: 0 0;	
+	display:inline-block;
+	padding:auto;
+	margin:auto;	
 }
 
 .social li {
-	display: flex;
+	display: inline-block;
 	align-items: center;
 	justify-content: end;
 	font-size: 1.5rem;
@@ -110,14 +107,8 @@ li {
 	padding: 0;
 }
 
-.social a {
-	padding: 1em;
-	transition: all 0.5s;
-}
-
 .social a:hover {
 	color: lightgrey;
-	transition: all 0.5s;
 }
 
 
@@ -125,18 +116,16 @@ li {
 
 section {
     background-color: white;
-    display: flex;
+    display: inline-block;
     width: 100%;
     margin: auto;
-    flex-direction: column;
-    padding: 0;
+    padding: auto;
 }
 
 .button {
-	display: flex;
+	display: inline-block;
 	justify-content: space-around;
 	margin: auto 37%;
-	padding: 1em;
 	text-transform: uppercase;
 	border: solid black 2px;
 	color: black;
@@ -154,8 +143,6 @@ section {
 .row {
 	margin: auto;
 }
-
-
 
 .paragraphe  {
     text-align: center;
@@ -192,15 +179,6 @@ section {
     height: 438px;
     margin : auto;
 }
-
-
-.colonnes {
-    border-bottom: solid 2px;
-    border-bottom-color: #EEEEEE;
-    width: 100%;
-    height: 796px;
-}
-
 
 .titres {
     font-family: 'Source Sans Pro' , 'Sans Serif';
